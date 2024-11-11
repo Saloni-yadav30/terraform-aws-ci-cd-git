@@ -10,7 +10,7 @@ resource "aws_instance" "example" {
   tags = {
     Name        = "MyExampleInstance"
     Environment = "Production"
-  }
+}  }
 resource "aws_s3_bucket" "my_bucket"{
 bucket = "saloniyadav301001"
 acl = "private"
